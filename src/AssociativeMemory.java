@@ -5,23 +5,14 @@ public class AssociativeMemory
 	int v;
 	public AssociativeMemory()//default constructor
 	{
-		int v = 1;
+		v = 1;
 	}
-	public void set(int register, int value)
+	public int getValue()
 	{
-		System.out.println("mem v = " + v);
-		if(register == 1)
-			v = (int) (v + Math.pow(2, value+1));
-		System.out.println("mem v = " + v);
+		return v;
 	}
-	public int get(int prime)
+	public void setValue(int value)
 	{
-		int tempV = v;
-		int value;
-		while(tempV % prime != 0)
-		{
-			
-		}
-		return value = 0;
+		v = value;
 	}
 }

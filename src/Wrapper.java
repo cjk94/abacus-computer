@@ -14,7 +14,7 @@ public class Wrapper {
 			while(scanny.hasNext())
 			{
 				s = scanny.nextLine();
-				System.out.println(s);
+				//System.out.println(s);
 				Instruction i = new Instruction(s);
 				instructions.add(i);
 			}
@@ -22,5 +22,4 @@ public class Wrapper {
 			ac.addInstructions(instructions);
 			ac.compute();
 		}
-
 }
