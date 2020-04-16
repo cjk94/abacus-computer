@@ -1,5 +1,3 @@
-import java.math.BigInteger;
-
 public class AssociativeMemory 
 {
 	int v;

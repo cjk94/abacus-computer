@@ -16,7 +16,8 @@ public class Instruction
 			registers.add(sb.substring(2,4));
 			type = "if";//check 
 			def = sb.substring(5);
-			System.out.println("Def: " + def);
+			System.out.println("type: " + type);
+			return;
 		}
 		if(s.contains("while"))
 		{

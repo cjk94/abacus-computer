@@ -68,7 +68,6 @@ public class AbacusComputer
 				System.out.println("Memory state after instruction: " + mem.getValue());
 				break;
 			case "+"://add given register 1 with given register 2, store result in given register 3
-				System.out.println("here");
 				register1 = Integer.parseInt(i.getRegisters().get(0).substring(1));
 				register2 = Integer.parseInt(i.getRegisters().get(1).substring(1));
 				register3 = Integer.parseInt(i.getRegisters().get(2).substring(1));
